@@ -1,0 +1,39 @@
+.transaction{
+    position: relative;
+    margin:15px;
+    border-radius: 3px;
+    box-shadow: #040404 2px 2px 4px;
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+.transaction-title{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.salary-style{
+    align-items: center;
+    display: inline-flex;
+}
+
+.deposit{
+    color: #03ae03;
+}
+
+.withdraw{
+    color:red;
+}
+
+.remove{
+    border-radius: 50%;
+    border-color: transparent !important;
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    font-size: 20px !important;
+
+}
+
+.body-card{
+    padding: 0 !important;
+}

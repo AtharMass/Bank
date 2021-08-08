@@ -1,0 +1,47 @@
+.card-style{
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.transactions{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.container-body{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.body-card{
+    padding: 0 !important;
+}
+
+.spinner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+@media (max-width:900px) {
+    .transactions{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media (max-width:600px) {
+    .transactions{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

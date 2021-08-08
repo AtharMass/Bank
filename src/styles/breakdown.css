@@ -1,0 +1,38 @@
+.categories{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.category{
+    position: relative;
+    margin:15px;
+    border-radius: 3px;
+    box-shadow: #040404 2px 2px 4px;
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+.body-fill{
+    height: 100vh;
+}
+
+.green{
+    color:green;
+}
+
+.red{
+   color: red; 
+}
+@media (max-width:900px) {
+    .categories{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media (max-width:600px) {
+    .categories{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
